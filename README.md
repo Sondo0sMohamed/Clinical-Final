@@ -49,7 +49,7 @@ In this report we made a preventative planned maintenance(PPM) for the equipment
 # Data for equipment:
 Here are some Screenshots for our data for the hosipital 
 
-![](https://raw.githubusercontent.com/Sondo0sMohamed/Clinical-Final/master/1.PNG?token=AKO3RTZG5LBEVQPYLIWMYJC6ZMZ22)
+![]( https://raw.githubusercontent.com/Sondo0sMohamed/Clinical-Final/master/1.PNG?token=AKO3RT7HMNMUJ3DTYDY3LNS6ZO2GY )
 
 ![](https://raw.githubusercontent.com/Sondo0sMohamed/Clinical-Final/master/2.PNG?token=AKO3RT5SQI7R5QNCBSSYQZS6ZMZ6C)
 
