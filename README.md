@@ -51,7 +51,7 @@ Here are some Screenshots for our data for the hosipital
 
 ![]( https://raw.githubusercontent.com/Sondo0sMohamed/Clinical-Final/master/1.PNG?token=AKO3RT7HMNMUJ3DTYDY3LNS6ZO2GY )
 
-![](https://raw.githubusercontent.com/Sondo0sMohamed/Clinical-Final/master/2.PNG?token=AKO3RT5SQI7R5QNCBSSYQZS6ZMZ6C)
+![] (https://raw.githubusercontent.com/Sondo0sMohamed/Clinical-Final/master/2.PNG?token=AKO3RT65ZBYND46YVZKQ3ZK6ZO2MA )
 
 ![](https://raw.githubusercontent.com/Sondo0sMohamed/Clinical-Final/master/3.PNG?token=AKO3RT4E4OUUNSM6FO76YD26ZMZ7M)
 
