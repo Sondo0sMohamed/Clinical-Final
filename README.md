@@ -1,6 +1,6 @@
    
  # Clinical Final Project(Team 13)
- | Name: Poline Atef Samy              | Sec:1     | BN:23     |
+| Name: Poline Atef Samy              | Sec:1     | BN:23     |
 | ----------------------------------- | --------- | --------- |
 | **Name: Toaa Mahmoud Abd-ElHakim**  | **Sec:1** | **BN:25** |
 | **Name: Samar Ibrahim Antar**       | **Sec:1** | **BN:40** |
@@ -11,10 +11,9 @@
 # Over View :
 
 In our Project we made a database system for a hospital consists of  
-  - Out door clinicals (Heart Clinic,physiological and neurological clinic,chest diseases clinic)
-  - Ear and nose 
- - Dermatology clinic
- - Dentistry
+ - Out patient clinicals (Heart Clinic,physiological and neurological clinic,chest diseases clinic and dermatology clinic)
+ - Otolaryngology Department (Ear, nose and throat **ENT**) 
+ - Dental Department
 
 # Technique used :
 In our project we used (Python Flask) as a Back-end ,(Html,CSS) as front-end and MySql (for our database for hospital).
@@ -22,17 +21,18 @@ In our project we used (Python Flask) as a Back-end ,(Html,CSS) as front-end and
 We made  Web page the user can choose the department he wants and click on the link the he will be directed to the page where he can download old reports to view it ,and if he is a doctor or an engineer and wants to add some edits to the reports he will enters his username and password to acces the data and add his Edits and comments and edited reports ,then this data will be saved to the database we created on MySql , and we can retrieve these data and reports again.
 
 # Reports 
-We made 4 Reports in our Project (PPM,daily,monthly,annual inspections)
+We made 3 Reports in our Project 
 
- - Dental Department (Daily,monthly,annual inspections)
- - Ear ,Nose and throat Department (PPM)
- - Outdoor Clinical (PPM)
+ - **Daily Inspection** for Dental Department.
+ - **PPM** for Otolaryngology Department.
+ - **Risk Assessment** for out patient clinics. 
+
  
-# Dental Department Report :
-in this report we made a checklist for (daily,monthly and annual inspection)
+# **Daily Inspection** for Dental Department :
+In this report we made a checklist for (daily inspection)
 the Biomedical Engineer or the doctor should fill this report to check that all equipments,devices other are working well ,and their comments if their any errors found with the date exactly so we can fix it as soon as possible
 
-# Ear,Nose and Throat Department :
+# PPM for Otolaryngology (Ear,Nose and Throat) Department :
 In this report we made a preventative planned maintenance(PPM) for the equipment in this department for example (Ear Pressure gauge) we assessed its 
 - parts to be maintenad
 - Cause of Failure
@@ -41,11 +41,14 @@ In this report we made a preventative planned maintenance(PPM) for the equipment
 - Time required
 
 
-# Out Door Clinicals :
-- Inspection Assessment
+# **Risk Assessment** for out patient clinics :
+It consists of checklist for assessment criteria scores.
 
+Each department in the report has a score of each assessment criteria such as A. equipment function or B. risk assosiated with equipment failure and so on..
 
+The value of Total score depends on each score of each assessment criteria A, B, C, D and E .
 
+According to the value of Total score, an engineer can put the result of inventory classification for each equipment (High, Medium, Low or hazard risk ).
 
 # Data for equipment:
 Here are some Screenshots for our data for the hosipital 
