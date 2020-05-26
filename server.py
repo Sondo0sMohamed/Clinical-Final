@@ -11,7 +11,7 @@ mydb = mysql.connector.connect(
  host="localhost",
  user="root",
   passwd="mysql",
-  database="database"
+  database="crud"
 )
 mycursor = mydb.cursor()
 mysql = MySQL()
@@ -19,14 +19,12 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'mysql'
-app.config['MYSQL_DATABASE_DB'] = 'database'
+app.config['MYSQL_DATABASE_DB'] = 'crud'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 conn = mysql.connect()
 cursor = conn.cursor(pymysql.cursors.DictCursor)
-mycursor.execute("SELECT engineers.Name FROM engineers")
-myresult2 = mycursor.fetchall()
-print(myresult2)
+
 @app.route('/index', methods=['GET', 'POST'])
 def login():
     global Name
@@ -38,7 +36,7 @@ def login():
          Name= req.get('username')
          ID= req.get('password')
          print(ID)
-         if not (Name,) in myresult2:
+         if not (Name,) in engineer_name():
             print("Username not found")
             #print()
             return redirect(request.url)
@@ -62,8 +60,13 @@ def login():
                 
                 
     return render_template("index.html")
-    
 
+def engineer_name():
+    mycursor.execute("SELECT engineers.Name FROM engineers")
+    myresult2 = mycursor.fetchall()
+    print(myresult2)
+    return myresult2
+    
 @app.route('/')
 def home_page():
    if not session.get("USERNAME") is None:
