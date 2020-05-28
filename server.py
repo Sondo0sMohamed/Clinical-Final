@@ -11,7 +11,7 @@ mydb = mysql.connector.connect(
  host="localhost",
  user="root",
   passwd="mysql",
-  database="crud"
+  database="database"
 )
 mycursor = mydb.cursor()
 mysql = MySQL()
@@ -19,7 +19,7 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'mysql'
-app.config['MYSQL_DATABASE_DB'] = 'crud'
+app.config['MYSQL_DATABASE_DB'] = 'database'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 conn = mysql.connect()
